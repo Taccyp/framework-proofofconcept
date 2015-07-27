@@ -1,4 +1,6 @@
 
+
+
 /* fonts */
 @mixin font-size($sizeValue: 12 ){
   font-size: $sizeValue + px; //fallback for old browsers
@@ -13,15 +15,7 @@
 
 $font1: 'Raleway', sans-serif;
 $font2: 'Open Sans', serif;
-
-#font1 {
-	font-family: $font1;
-
-}
-
-#font2 {
-	font-family: $font2;
-}
+$font3: 'Titillium Web', sans-serif;
 
 /* colors */
 
